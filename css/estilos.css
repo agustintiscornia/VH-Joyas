@@ -857,10 +857,38 @@ color: darkgray;
                         
                         }
                         
+                        @media only screen and (max-width: 390px) {
+                            .SIGLO{
+                                margin-left: 70px;
+                            }
+                            .vermastext1{
+                                margin-left: 90px;
+                            }
+
+                            .textcarousel1{
+                                margin-left: 40px;
+                            }
+
+                            .textcarousel2{
+                                margin-left: 10px;
+                            }
+
+                            .vermastext{
+                                margin-left: 90px;
+                            }
+                            .textcarousel{
+                                margin-left: 60px;
+                            }
+
+                            .quintero{
+                                width: 380px;
+                            }
+                            }
                         
+
                         @media only screen and (max-width: 375px) {
                             .SIGLO{
-                                margin-left: 80px;
+                                margin-left: 120px;
                             }
                             .vermastext1{
                                 margin-left: 60px;
