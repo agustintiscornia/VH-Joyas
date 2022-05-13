@@ -762,6 +762,12 @@ color: darkgray;
                     }
                 }
 
+                @media only screen and (max-width: 430px){
+
+                    .tituloindex2{
+                        font-size: 38px;
+                    }
+                }
                 /* imagen fondo */
                 @media only screen and (max-width: 768px) {
                     .header{
@@ -819,6 +825,73 @@ color: darkgray;
 
                     
                     }
+                    
+                    @media only screen and (max-width: 425px) {
+                        .tituloindex2{
+                            font-size: 35px;
+                        }
+                        .cajacontenedoraindex{
+                            width: 700px;
+                        }
+                        .indexparrafo{
+                            font-size: 25px;
+                        }
+                        .cajacontenedoraindex2{
+                            width: 700px;
+                        }
+
+                        .containerpiezasunicas{
+                            width:500px ;
+                        }
+
+                        .titulopiezasunicas{
+                            margin-left: 130px;
+                            width: 600px;
+                        }
+
+                        .textopiezasunicas{
+                            width: 700px;
+                        }
+
+                        .containercarousel{
+                            margin-left: 50px;
+                        }
+
+                        .textcarousel{
+                            margin-left: 130px;
+                        }
+                        
+                        }
+                        
+                        @media only screen and (max-width: 450px) {
+                            .SIGLO{
+                                margin-left: 70px;
+                            }
+                            .vermastext1{
+                                margin-left: 90px;
+                            }
+
+                            .textcarousel1{
+                                margin-left: 40px;
+                            }
+
+                            .textcarousel2{
+                                margin-left: 10px;
+                            }
+
+                            .vermastext{
+                                margin-left: 90px;
+                            }
+                            .textcarousel{
+                                margin-left: 60px;
+                            }
+
+                            .quintero{
+                                width: 450px;
+                            }
+                            }
+                        
+
 
                     @media only screen and (max-width: 425px) {
                         .tituloindex2{
