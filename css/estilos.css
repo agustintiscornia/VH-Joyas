@@ -924,62 +924,40 @@ color: darkgray;
                         
                         }
                         
-                        @media only screen and (max-width: 390px) {
-                            .SIGLO{
-                                margin-left: 70px;
-                            }
-                            .vermastext1{
-                                margin-left: 90px;
+                        @media only screen 
+                            and (device-width: 390px) 
+                            and (device-height: 844px) 
+                            and (-webkit-device-pixel-ratio: 3) {
+                                .SIGLO{
+                                    margin-left: 70px;
+                                }
+                                .vermastext1{
+                                    margin-left: 90px;
+                                }
+
+                                .textcarousel1{
+                                    margin-left: 40px;
+                                }
+
+                                .textcarousel2{
+                                    margin-left: 10px;
+                                }
+
+                                .vermastext{
+                                    margin-left: 90px;
+                                }
+                                .textcarousel{
+                                    margin-left: 60px;
+                                }
+
+                                .quintero{
+                                    width: 380px;
+                                }
                             }
 
-                            .textcarousel1{
-                                margin-left: 40px;
-                            }
-
-                            .textcarousel2{
-                                margin-left: 10px;
-                            }
-
-                            .vermastext{
-                                margin-left: 90px;
-                            }
-                            .textcarousel{
-                                margin-left: 60px;
-                            }
-
-                            .quintero{
-                                width: 380px;
-                            }
-                            }
                         
 
-                        @media only screen and (max-width: 375px) {
-                            .SIGLO{
-                                margin-left: 120px;
-                            }
-                            .vermastext1{
-                                margin-left: 60px;
-                            }
-
-                            .textcarousel1{
-                                margin-left: 100px;
-                            }
-
-                            .textcarousel2{
-                                margin-left: 30px;
-                            }
-
-                            .vermastext{
-                                margin-left: 120px;
-                            }
-                            .textcarousel{
-                                margin-left: 100px;
-                            }
-
-                            .quintero{
-                                width: 325px;
-                            }
-                            }
+                            
                         
 
 
