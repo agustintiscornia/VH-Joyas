@@ -762,12 +762,6 @@ color: darkgray;
                     }
                 }
 
-                @media only screen and (max-width: 430px){
-
-                    .tituloindex2{
-                        font-size: 38px;
-                    }
-                }
                 /* imagen fondo */
                 @media only screen and (max-width: 768px) {
                     .header{
