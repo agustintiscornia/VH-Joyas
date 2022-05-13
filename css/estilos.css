@@ -1072,3 +1072,32 @@ color: darkgray;
                                     .quintero{
                                         width: 330px;
                                     } }
+
+                                    @media only screen and (max-width: 360px){
+
+                                        .SIGLO{
+                                            margin-left: 70px;
+                                        }
+                                        .vermastext1{
+                                            margin-left: 70px;
+                                        }
+            
+                                        .textcarousel1{
+                                            margin-left: 40px;
+                                        }
+            
+                                        .textcarousel2{
+                                            margin-left: 10px;
+                                        }
+            
+                                        .vermastext{
+                                            margin-left: 10px;
+                                        }
+                                        .textcarousel{
+                                            margin-left: 60px;
+                                        }
+            
+                                        .quintero{
+                                            width: 330px;
+                                        }
+                                    }
