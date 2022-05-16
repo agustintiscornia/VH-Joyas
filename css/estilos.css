@@ -986,6 +986,7 @@ color: darkgray;
                                         margin-left: 100px;
                                         color: grey;
                                         font-size: 35px;
+                                        
                                     }
                                     .vermastext{
                                         color: grey;
@@ -1158,8 +1159,8 @@ color: darkgray;
                                         width: 700px;
                                     }
 
-                                    .vermastext{
-                                        text-decoration: underline gray !important;
+                                    .titulocontacto{
+                                        margin-left: 200px;
                                     }
                                     }
                                     
