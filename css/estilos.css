@@ -131,12 +131,15 @@ margin-top: 200px;
 
 .vermastext{
     margin-left: 380px;
+    color: gray;
+    text-decoration: underline gray !important;
 }
 
 .vermastext1{
     padding: 5px;
     font-size: 17px;
-    text-decoration: none;
+    text-decoration: underline gray !important;
+    color: gray;
 }
 /* Carousel */
 
@@ -1153,6 +1156,10 @@ color: darkgray;
 
                                     .mapa{
                                         width: 700px;
+                                    }
+
+                                    .vermastext{
+                                        text-decoration: underline gray !important;
                                     }
                                     }
                                     
