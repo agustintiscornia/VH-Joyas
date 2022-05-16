@@ -1004,7 +1004,6 @@ color: darkgray;
                                     }
 
 
-                                    /* Galaxy S8 */
                                     
                                     /* Iphone 5*/
                                     
@@ -1100,4 +1099,59 @@ color: darkgray;
                                         .quintero{
                                             width: 330px;
                                         }
+                                    }
+
+                                    /* pantallas mas grandes */
+
+                                    @media only screen 
+                                    and (device-width : 1660px) 
+                                    and (device-height : 900px) 
+                                    
+                                    {
+
+                                    .cajacontenedoranosotros{
+                                        margin-left:150px;
+                                    }
+                                    .cajacontenedoracontactos{
+                                        margin-left: 150px;
+                                        }
+                                    
+                                    .containerfooter{
+                                        margin-left: 150px;
+                                    }
+                                    .lineafooter{
+                                        margin-left: 430px;
+                                    }
+                                    }
+
+                                    @media only screen 
+                                    and (device-width : 1920px) 
+                                    and (device-height : 1080px) 
+                                    
+                                    {
+
+                                    .cajacontenedoranosotros{
+                                        margin-left:250px;
+                                    }
+                                    .cajacontenedoranosotroshijo2{
+                                        width: 700px;
+                                    }
+                                    .texto-nosotros{
+                                        width: 900px;
+                                        font-size: 19px;
+                                    }
+                                    .cajacontenedoracontactos{
+                                        margin-left: 250px;
+                                        }
+                                    
+                                    .containerfooter{
+                                        margin-left: 250px;
+                                    }
+                                    .lineafooter{
+                                        margin-left: 530px;
+                                    }
+
+                                    .mapa{
+                                        width: 700px;
+                                    }
                                     }
