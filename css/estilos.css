@@ -865,6 +865,7 @@ color: darkgray;
                             }
                             .vermastext1{
                                 margin-left: 90px;
+                                text-decoration: underline black !important;
                             }
 
                             .textcarousel1{
@@ -877,6 +878,7 @@ color: darkgray;
 
                             .vermastext{
                                 margin-left: 90px;
+                                text-decoration:  underline black !important;
                             }
                             .textcarousel{
                                 margin-left: 60px;
@@ -984,16 +986,19 @@ color: darkgray;
                                     .vermastext1{
                                         margin-left: 100px;
                                         color: grey;
+                                        text-decoration: underline black !important;
                                         font-size: 35px;
-                                        text-decoration: underline gray !important;
+                                        
                                         
                                     }
                                     .vermastext{
                                         color: grey;
+                                        text-decoration: underline black !important;
                                         font-size: 35px !important;
                                         margin-left: 110px;
         
                                     }
+                                    
         
                                     .textcarousel2{
                                         margin-left: 75px;
@@ -1143,6 +1148,14 @@ color: darkgray;
                                     .lineafooter{
                                         margin-left: 430px;
                                     }
+                                    .vermastext{
+                                        color:gray;
+                                        text-decoration: underline gray !important;
+                                    }
+                                    .vermastext1{
+                                        color:gray;
+                                        text-decoration: underline gray !important;
+                                    }
                                     }
 
                                     @media only screen 
@@ -1194,6 +1207,16 @@ color: darkgray;
 
                                     .titulocontacto{
                                         margin-left: 300px;
+                                    }
+
+                                    .vermastext{
+                                        color: gray;
+                                        text-decoration: underline gray !important;
+                                    }
+
+                                    .vermastext1{
+                                        color: gray;
+                                        text-decoration: underline gray !important;
                                     }
                                     }
                                     
