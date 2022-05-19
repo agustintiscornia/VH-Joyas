@@ -487,12 +487,10 @@ color: darkgray;
             .titulocontacto{
                 font-size: 60px;
                 margin-top: 260px;
-                margin-left:180px;
             }
             .cajacontenedoracontactos{
             height: 750px;
             padding: 60px;
-            margin-left: 49px;
             }
             .cajacontenedoracontactoshijo{
                 padding: 10px;
@@ -564,9 +562,7 @@ color: darkgray;
     
     }
         @media only screen and (max-width: 450px){
-            .containerfooter{
-                margin-left: 70px;
-            }
+            
             .infofooter{
                 margin-left: 50px;
                 padding: 10px;
@@ -574,7 +570,7 @@ color: darkgray;
             }
             .lineafooter{
                 width: 650px;
-                margin-left: 90px !important;
+                margin-left: 60px;
                 
             }
             
@@ -794,7 +790,7 @@ color: darkgray;
                 }
 
                 /* carousel*/
-                
+               
                 /* media queries carousel */
 
                 @media only screen and (max-width: 768px) {
@@ -896,7 +892,6 @@ color: darkgray;
 
                             .quintero{
                                 width: 470px;
-                                height: 300px;
                             }
                             }
                         
@@ -1086,6 +1081,7 @@ color: darkgray;
                                     }
                                     .vermastext1{
                                         margin-left: 70px;
+                                        text-decoration: underline black !important;
                                     }
         
                                     .textcarousel1{
@@ -1098,6 +1094,7 @@ color: darkgray;
         
                                     .vermastext{
                                         margin-left: 10px;
+                                        text-decoration: underline black !important;
                                     }
                                     .textcarousel{
                                         margin-left: 60px;
@@ -1114,6 +1111,7 @@ color: darkgray;
                                         }
                                         .vermastext1{
                                             margin-left: 70px;
+                                            text-decoration: underline black !important;
                                         }
             
                                         .textcarousel1{
@@ -1126,6 +1124,7 @@ color: darkgray;
             
                                         .vermastext{
                                             margin-left: 10px;
+                                            text-decoration: underline black !important;
                                         }
                                         .textcarousel{
                                             margin-left: 60px;
@@ -1233,4 +1232,28 @@ color: darkgray;
                                     }
                                     }
                                     
-                                    
+                                    @media only screen 
+                                    and (device-width: 428px) 
+                                    and (device-height: 926px) {
+                                        .quintero{
+                                            height: 320px;
+                                            margin-right: 25px;
+                                        }
+
+                                        .texto-nosotros{
+                                            margin-left: 40px;
+                                        }
+
+                                        .cajacontenedoracontactos{
+                                            margin-left: 49px;
+                                        }
+
+                                        .titulocontacto{
+                                            margin-left: 180px;
+                                        }
+
+                                        .containerfooter{
+                                            margin-left: 70px;
+                                        }
+                                        
+                                    }
