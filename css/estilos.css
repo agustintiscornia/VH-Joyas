@@ -1256,4 +1256,11 @@ color: darkgray;
                                             margin-left: 70px;
                                         }
                                         
+                                        .vermastext{
+                                            text-decoration: underline black !important;
+                                        }
+
+                                        .vermastext1{
+                                            text-decoration: underline black !important;
+                                        }
                                     }
