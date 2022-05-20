@@ -16,6 +16,7 @@
   backface-visibility: hidden;
   outline: none;
   overflow: hidden;
+  background-color: aqua;
 }
 
 .glightbox-container.inactive {
