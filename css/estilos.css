@@ -1235,11 +1235,7 @@ color: darkgray;
                                     @media only screen 
                                     and (device-width: 428px) 
                                     and (device-height: 926px) {
-                                        .quintero{
-                                            height: 320px;
-                                            margin-left: 60px;
-                                            width: 430px;
-                                        }
+                                        
 
                                         .texto-nosotros{
                                             margin-left: 40px;
