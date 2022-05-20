@@ -769,7 +769,7 @@ color: darkgray;
                     .header{
                         min-height: 100vh;
                         min-width: 100vh;
-                        background-image: url(../multimedia/fondo-tiara.png);
+                        background-image: url(../multimedia/fondo-tiara.old.jpg);
                         background-size: cover;
                         background-repeat: no-repeat;
                         background-attachment: fixed;
@@ -1236,7 +1236,9 @@ color: darkgray;
                                     and (device-width: 428px) 
                                     and (device-height: 926px) {
                                         
-
+                                        .quintero{
+                                            width: 430;
+                                        }
                                         .texto-nosotros{
                                             margin-left: 40px;
                                         }
