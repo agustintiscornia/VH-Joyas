@@ -478,6 +478,7 @@ color: darkgray;
         
         .cajacontenedoracontactos{
             flex-direction: column;
+            justify-content: space-between !important;
         }
         
         
@@ -791,7 +792,7 @@ color: darkgray;
                 }
 
                 /* carousel*/
-               
+                
                 /* media queries carousel */
 
                 @media only screen and (max-width: 768px) {
@@ -1008,7 +1009,9 @@ color: darkgray;
         
                                     }
                                     
-        
+                                    .cajacontenedoracontactos{
+                                        justify-content: space-between !important;
+                                    }
                                     .textcarousel2{
                                         margin-left: 75px;
                                     }
@@ -1090,7 +1093,9 @@ color: darkgray;
                                     .textcarousel2{
                                         margin-left: 10px;
                                     }
-        
+                                    .cajacontenedoracontactos{
+                                        justify-content: space-between !important;
+                                    }
                                     .vermastext{
                                         margin-left: 10px;
                                         text-decoration: underline black !important;
