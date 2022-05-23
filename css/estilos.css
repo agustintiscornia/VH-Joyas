@@ -361,13 +361,12 @@ color: darkgray;
 .cajacontenedoracontactos{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     height: 400px;
-    width: 100%;
 }
 
 .mapa{
     padding: 10px;
+    margin-left: 70px;
     height: 300px;
     width: 400px;
 
@@ -1203,7 +1202,7 @@ color: darkgray;
                                         font-size: 23px;
                                     }
                                     .cajacontenedoracontactos{
-                                        
+                                        margin-left: 250px;
                                         }
                                     
                                     .containerfooter{
