@@ -26,11 +26,11 @@ height: 400px;
 
 .header{
     min-height: 100vh;
-    min-width: 100vh;
     background-image: url(../multimedia/fondo-tiara.png);
     background-size: cover;
     background-repeat: no-repeat;
-    object-fit: cover;   
+    object-fit: cover;
+    width: 100%;  
 }
 
 
@@ -393,7 +393,9 @@ color: darkgray;
     background-color:gray;
 }
 
-
+#contactos{
+    width: 100%;
+}
 /* foooter */
 .footer{
     height: 200px;
@@ -479,6 +481,7 @@ color: darkgray;
         .cajacontenedoracontactos{
             flex-direction: column;
             justify-content: space-between !important;
+            height: 600px;
         }
         
         
@@ -1008,9 +1011,19 @@ color: darkgray;
                                         margin-left: 110px;
         
                                     }
-                                    
+                                    #contactos{
+                                        height: 110vh;
+                                        width: 100% ;
+                                        
+                                    }
                                     .cajacontenedoracontactos{
+                                        height: 600px;
+                                        width: 100%;
+                                        margin-left: 50px;
                                         justify-content: space-between !important;
+                                    }
+                                    .mapa{
+                                        margin-left: 50px !important;
                                     }
                                     .textcarousel2{
                                         margin-left: 75px;
