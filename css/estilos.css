@@ -362,11 +362,12 @@ color: darkgray;
     display: flex;
     flex-direction: row;
     height: 400px;
+    width: 100%;
+    justify-content: center;
 }
 
 .mapa{
     padding: 10px;
-    margin-left: 70px;
     height: 300px;
     width: 400px;
 
@@ -491,6 +492,7 @@ color: darkgray;
             .cajacontenedoracontactos{
             height: 750px;
             padding: 60px;
+            justify-content: flex-start;
             }
             .cajacontenedoracontactoshijo{
                 padding: 10px;
@@ -527,6 +529,7 @@ color: darkgray;
 @media only screen and (max-width: 768px) {
     .cajacontenedoracontactos{
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
 }
@@ -790,7 +793,7 @@ color: darkgray;
                 }
 
                 /* carousel*/
-               
+                
                 /* media queries carousel */
 
                 @media only screen and (max-width: 768px) {
@@ -806,7 +809,7 @@ color: darkgray;
                     .textcarousel2{
                         margin-left: 120px;
                     }
-
+                    
                     .textcarousel1{
                         margin-left: 160px;
                     }
@@ -841,7 +844,7 @@ color: darkgray;
                         .cajacontenedoraindex2{
                             width: 700px;
                         }
-
+                        
                         .containerpiezasunicas{
                             width:500px ;
                         }
@@ -881,7 +884,7 @@ color: darkgray;
                             .textcarousel2{
                                 margin-left: 10px;
                             }
-
+                            
                             .vermastext{
                                 margin-left: 90px;
                                 text-decoration:  underline black !important;
@@ -914,7 +917,7 @@ color: darkgray;
                         .containerpiezasunicas{
                             width:500px ;
                         }
-
+                        
                         .titulopiezasunicas{
                             margin-left: 130px;
                             width: 600px;
@@ -958,7 +961,9 @@ color: darkgray;
                             .textcarousel2{
                                 margin-left: 10px;
                             }
-
+                            .cajacontenedoracontactos{
+                                justify-content: flex-start;
+                            }
                             .vermastext{
                                 margin-left: 90px;
                                 text-decoration: underline black !important;
@@ -1021,6 +1026,7 @@ color: darkgray;
 
                                     .cajacontenedoracontactos{
                                         margin-left: 49px;
+                                        justify-content: flex-start;
                                     }
                                     .titulocontacto{
                                         margin-left: 180px;
@@ -1071,7 +1077,9 @@ color: darkgray;
                                         margin-left: 60px;
                                     }
                                     }
-
+                                    .cajacontenedoracontactos{
+                                        justify-content: flex-start;
+                                    }
                                     @media only screen 
                                     and (device-width : 375px) 
                                     and (device-height : 667px) 
@@ -1099,7 +1107,9 @@ color: darkgray;
                                     .textcarousel{
                                         margin-left: 60px;
                                     }
-        
+                                    .cajacontenedoracontactos{
+                                        justify-content: flex-start;
+                                    }
                                     .quintero{
                                         width: 330px;
                                     } }
@@ -1132,6 +1142,9 @@ color: darkgray;
             
                                         .quintero{
                                             width: 300px;
+                                        }
+                                        .cajacontenedoracontactos{
+                                            justify-content: flex-start;
                                         }
                                     }
 
@@ -1182,6 +1195,7 @@ color: darkgray;
                                         height: 3000px;
                                     }
 
+                                    
                                     .quintero{
                                         height: 500px;
                                     }
@@ -1201,9 +1215,7 @@ color: darkgray;
                                         width: 900px;
                                         font-size: 23px;
                                     }
-                                    .cajacontenedoracontactos{
-                                        margin-left: 250px;
-                                        }
+                                    
                                     
                                     .containerfooter{
                                         margin-left: 300px;
@@ -1247,6 +1259,7 @@ color: darkgray;
                                         
                                         .cajacontenedoracontactos{
                                             margin-left: 49px;
+                                            justify-content: flex-start;
                                         }
 
                                         .titulocontacto{
