@@ -402,6 +402,7 @@ color: darkgray;
     color:gray ;
     margin-left: 300px;
     padding: 10px;
+    position: relative;
 }
 
 .lineafooter{
@@ -427,8 +428,6 @@ color: darkgray;
 .containerfooter{
     display: flex;
     flex-direction:row;
-    height: 300px;
-    width: 100%;
 }
 
 .vhfooter{
