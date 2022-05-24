@@ -427,6 +427,8 @@ color: darkgray;
 .containerfooter{
     display: flex;
     flex-direction:row;
+    height: 300px;
+    width: 100%;
 }
 
 .vhfooter{
