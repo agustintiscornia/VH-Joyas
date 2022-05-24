@@ -363,7 +363,7 @@ color: darkgray;
     flex-direction: row;
     height: 400px;
     width: 100%;
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .mapa{
@@ -492,7 +492,7 @@ color: darkgray;
             .cajacontenedoracontactos{
             height: 750px;
             padding: 60px;
-            justify-content: flex-start;
+            justify-content: flex-start !important;
             }
             .cajacontenedoracontactoshijo{
                 padding: 10px;
@@ -529,7 +529,7 @@ color: darkgray;
 @media only screen and (max-width: 768px) {
     .cajacontenedoracontactos{
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: flex-start !important;
     }
 
 }
@@ -962,7 +962,7 @@ color: darkgray;
                                 margin-left: 10px;
                             }
                             .cajacontenedoracontactos{
-                                justify-content: flex-start;
+                                justify-content: flex-start !important;
                             }
                             .vermastext{
                                 margin-left: 90px;
@@ -1026,7 +1026,7 @@ color: darkgray;
 
                                     .cajacontenedoracontactos{
                                         margin-left: 49px;
-                                        justify-content: flex-start;
+                                        justify-content: flex-start !important;
                                     }
                                     .titulocontacto{
                                         margin-left: 180px;
@@ -1077,9 +1077,7 @@ color: darkgray;
                                         margin-left: 60px;
                                     }
                                     }
-                                    .cajacontenedoracontactos{
-                                        justify-content: flex-start;
-                                    }
+                                    
                                     @media only screen 
                                     and (device-width : 375px) 
                                     and (device-height : 667px) 
@@ -1108,7 +1106,7 @@ color: darkgray;
                                         margin-left: 60px;
                                     }
                                     .cajacontenedoracontactos{
-                                        justify-content: flex-start;
+                                        justify-content: flex-start !important;
                                     }
                                     .quintero{
                                         width: 330px;
@@ -1144,7 +1142,7 @@ color: darkgray;
                                             width: 300px;
                                         }
                                         .cajacontenedoracontactos{
-                                            justify-content: flex-start;
+                                            justify-content: flex-start !important;
                                         }
                                     }
 
@@ -1259,7 +1257,7 @@ color: darkgray;
                                         
                                         .cajacontenedoracontactos{
                                             margin-left: 49px;
-                                            justify-content: flex-start;
+                                            justify-content: flex-start !important;
                                         }
 
                                         .titulocontacto{
