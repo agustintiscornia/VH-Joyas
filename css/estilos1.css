@@ -777,6 +777,13 @@ color: darkgray;
                         margin-left: 200px;
                         font-size:31px !important;
                     }
+                    .navbar-toggler{
+                        display: none;
+                    }
+
+                    .navbar-toggler-icon{
+                        display: none;
+                    }
                 }
 
                 /* imagen fondo */
@@ -877,7 +884,13 @@ color: darkgray;
                         .textcarousel{
                             margin-left: 130px;
                         }
-                        
+                        .navbar-toggler{
+                                display: none;
+                            }
+
+                            .navbar-toggler-icon{
+                                display: none;
+                            }
                         }
                         
                         @media only screen and (max-width: 450px) {
@@ -948,7 +961,7 @@ color: darkgray;
                         }
                         
                         }
-                             
+                        
                         @media only screen 
                         and (device-width: 390px) 
                         and (device-height: 844px) 
@@ -1056,6 +1069,14 @@ color: darkgray;
                                     .lineafooter{
                                         margin-left: 90px;
                                     }
+
+                                    .navbar-toggler{
+                                        display: none;
+                                    }
+        
+                                    .navbar-toggler-icon{
+                                        display: none;
+                                    }
                                     }
 
 
@@ -1095,6 +1116,14 @@ color: darkgray;
                                     .textcarousel{
                                         margin-left: 60px;
                                     }
+
+                                    .navbar-toggler{
+                                        display: none;
+                                    }
+        
+                                    .navbar-toggler-icon{
+                                        display: none;
+                                    }
                                     }
                                     
                                     @media only screen 
@@ -1129,7 +1158,15 @@ color: darkgray;
                                     }
                                     .quintero{
                                         width: 330px;
-                                    } }
+                                    } 
+                                    .navbar-toggler{
+                                        display: none;
+                                    }
+        
+                                    .navbar-toggler-icon{
+                                        display: none;
+                                    }
+                                }
 
                                     @media only screen and (max-width: 360px){
 
@@ -1162,6 +1199,13 @@ color: darkgray;
                                         }
                                         .cajacontenedoracontactos{
                                             justify-content: flex-start !important;
+                                        }
+                                        .navbar-toggler{
+                                            display: none;
+                                        }
+            
+                                        .navbar-toggler-icon{
+                                            display: none;
                                         }
                                     }
 
@@ -1300,6 +1344,13 @@ color: darkgray;
                                         .lineafooter{
                                             width: 720px;
                                             margin-left: 100px;
+                                        }
+                                        .navbar-toggler{
+                                            display: none;
+                                        }
+            
+                                        .navbar-toggler-icon{
+                                            display: none;
                                         }
                                     }
 
