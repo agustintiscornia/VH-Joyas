@@ -397,15 +397,14 @@ color: darkgray;
 }
 .infofooter{
     color:gray ;
+    margin-left: 300px;
     padding: 10px;
-    text-align: end;
+    
 }
 
 .lineafooter{
-    width: 60vw;
-    margin: auto;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
+    width: 800px;
+    margin-left: 250px;
 }
 
 .lineavertical{
@@ -423,11 +422,10 @@ color: darkgray;
 }
 
 .containerfooter{
-    box-sizing: border-box;
-    width: 100%;
+
     display: flex;
     flex-direction:row;
-    justify-content: center;
+    
 }
 
 .vhfooter{
@@ -463,7 +461,7 @@ color: darkgray;
 
 .navlinkfooter{
     list-style: none;
-    padding-left: 2vw;
+    
 }
 .navlinkfooter :hover{
     text-decoration: underline;
@@ -473,7 +471,7 @@ color: darkgray;
 
 /*media queries pagina contactos*/
 
-/*  @media(max-width: 1280px){
+/* @media(max-width: 1280px){
         .cajacontenedoracontactos{
             flex-direction: column;
             align-items: center;
@@ -484,7 +482,7 @@ color: darkgray;
         .titulocontacto{
             text-align: center;
         }
-    } */
+    }  */
 
     @media(max-width: 450px){
         
