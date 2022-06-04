@@ -540,6 +540,7 @@ color: darkgray;
     .cajacontenedoracontactos{
         flex-wrap: wrap;
         justify-content: flex-start !important;
+        height: 700px;
     }
 
 }
@@ -1302,7 +1303,33 @@ color: darkgray;
                                         text-decoration: underline gray !important;
                                     }
                                     }
+                                    /* pantalla portatil */
+                                    @media only screen and (max-width: 1024px)  {
+
+                                        .header{
+                                            min-height: 100vh;
+                                            min-width: 100vh;
+                                            background-image: url(../multimedia/fondo-tiara.old.jpg);
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                        }
+                                    }
                                     
+                                    @media only screen and (max-width: 1440px)  {
+
+                                        .header{
+                                            min-height: 100vh;
+                                            min-width: 100vh;
+                                            background-image: url(../multimedia/fondo-tiara.old.jpg);
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                        }
+                                    }
+    
+                                    
+                                    /* iphone13 */
                                     @media only screen 
                                     and (device-width: 428px) 
                                     and (device-height: 926px) {
