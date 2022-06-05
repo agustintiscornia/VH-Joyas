@@ -500,7 +500,7 @@ color: darkgray;
                 margin-top: 260px;
             }
             .cajacontenedoracontactos{
-            height: 750px;
+            height: 800px;
             padding: 60px;
             justify-content: flex-start !important;
             }
@@ -540,7 +540,7 @@ color: darkgray;
     .cajacontenedoracontactos{
         flex-wrap: wrap;
         justify-content: flex-start !important;
-        height: 700px;
+        height: 800px;
     }
 
 }
