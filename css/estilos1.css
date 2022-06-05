@@ -578,7 +578,7 @@ color: darkgray;
         @media only screen and (max-width: 450px){
             
             .infofooter{
-                margin-left: 50px;
+                margin-left: 50px !important;
                 padding: 10px;
                 font-size: 20px;
             }
@@ -620,18 +620,14 @@ color: darkgray;
             }
             
         }
-
-    @media only screen and (max-width: 768px) {
-        .containerfooter{
-            flex-wrap: wrap;
-        }
+        
     
-    }
         @media only screen and (max-width: 768px){
             
             .infofooter{
-                margin-left: 60px;
+                margin-left: 50px;
                 padding: 10px;
+                font-size: 15px;
             }
             .lineafooter{
                 width: 650px;
@@ -1328,6 +1324,10 @@ color: darkgray;
                                         }
                                     }
     
+                                    /* footer media queries */
+
+                                   
+                                        
                                     
                                     /* iphone13 */
                                     @media only screen 
