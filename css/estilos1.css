@@ -658,7 +658,7 @@ color: darkgray;
                 margin-left: 1px;
             }   
         }
-
+        
         /* media queries nosotros */
 
         @media only screen and (max-width: 450px) {
@@ -739,6 +739,7 @@ color: darkgray;
                 }  
             }
 
+            
             /* media queries index */
 
             @media only screen and (max-width: 450px) {
@@ -1322,11 +1323,40 @@ color: darkgray;
                                             background-repeat: no-repeat;
                                             background-attachment: fixed;
                                         }
+
                                     }
     
-                                    /* footer media queries */
+                                    @media only screen 
+                                    and (device-width: 1024px) 
+                                    and (device-height: 532px) {
+                                        .quintero{
+                                            margin-left: 150px;
+                                        }
+                                        .SIGLO{
+                                            margin-left: 180px;
+                                        }
 
+                                        .vermastext1{
+                                            margin-left: 180px;
+                                            text-decoration: underline black !important;
+                                        }
+
+                                        .vermastext{
+                                            margin-left: 290px;
+                                            text-decoration: underline black !important;
+                                        }
+
+                                        .textcarousel{
+                                            margin-left: 290px;
+                                        }
+                                    }
+
+                            
+                                
+                                
                                     
+                                    
+
                                     
                                     /* iphone13 */
                                     @media only screen 
