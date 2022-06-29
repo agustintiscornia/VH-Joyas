@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, maximum-scale=1.0">
-  <title>Vh Joyas</title>
+  <meta name="description" content="Vicente Hernandez, mayorista y coleccionista de joyas antiguas."/>
+  <title>Vicente Hernandez - Joyeros & Anticuarios</title>
   
   
     <link rel="stylesheet" href="css/estilos.css">
@@ -21,6 +22,15 @@
     <link href="Test/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="Test/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="Test/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- ICONOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Icons/favicon-16x16.png">
+    <link rel="manifest" href="Icons/site.webmanifest">
+    <link rel="mask-icon" href="Icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
   
     <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
 
